@@ -1,0 +1,26 @@
+<html>
+<style>
+.silver-background {
+   background-color:silver;
+}
+
+</style>
+<body>
+<p class="silver-background">This form does not do anything when you click the "submit" button. But it shows form elements.</p>
+
+ <form>
+ <p>Check the radio button that matches your feelings towards lifelong learning</p>
+ <label><input type="radio" name="attitude" checked>Love it!</label>
+ <label><input type="radio" name="indoor-outdoor">Not for me</label>
+  
+  <p>Check the box that most closes matches time spent on lifelong learning</p>
+  <label><input type="checkbox" name="time-spent" checked> An hour a day</label>
+  <label><input type="checkbox" name="time-spent">An hour a week</label>
+  <label><input type="checkbox" name="time-spent">None :-(</label>
+
+  <p>What is your favorite lifelong learning activity (required)</p>
+  <input type="text" placeholder="Your fav here" required>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
